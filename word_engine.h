@@ -11,6 +11,8 @@ class word_engine {
   public:
     word_engine();
     void printLetter(char c, string word);
+    void printLetterLine(char, int, string);
+    void printString(string word);
 
   private:
     CSV file;

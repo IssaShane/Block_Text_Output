@@ -8,8 +8,11 @@ using namespace std;
 
 int main () {
   word_engine output;
-  output.printLetter('A', "hi");
-  //CSV file("letters.csv");
-  //file.printLines();
+  string word;
+
+  cout << "please enter a word: ";
+  cin >> word;
+  output.printString(word);
+
   return 0;
 }
